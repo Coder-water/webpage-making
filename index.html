@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div id="container">
+  <nav class="navbar">
+    <a>查询</a>
+    <a>预约</a>
+    <a>签离</a>
+    <a>选座</a>
+  </nav>
+  <div id="background"></div>
+
+  <div class="section">
+   <h1 id="title" class="margin-top">选座系统</h1>
+   <h2 class="less-margin">选择座位类型：</h2>
+  
+  <div class="alta">
+    <img id="alta" src="img/classroom.jpeg">
+    <div class="button coral" id="coral" onclick="coralColor()"></div>
+    <div class="button fuschia" id="fuschia" onclick="fuschiaColor()"></div>
+   </div>
+ </div>
+  <p id="desc">SDUQD Campus</p>
+</div>
+
+<script src='js/main.js'>
+let alta = document.getElementById('alta');
+let background = document.getElementById('background');
+let title = document.getElementById('title');
+</script>
+</body>
+</html>
